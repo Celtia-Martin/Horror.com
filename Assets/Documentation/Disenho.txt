@@ -1,0 +1,27 @@
+Jugabilidad:
+Andar ( teletransporte, pero ya veremos)
+Movil ( sacar con un boton, bateria etc)
+El movil tendrá una camara interna y externa ( y seguira la mano derecha)
+Acciones:
+MANDO DERECHO
+El de atras: Sacar el movil
+Primario: Activar cosas-> App seleccionada, sacar foro si esta en camara
+Secundario: Atrás
+
+MANDO IZQUIERDO
+El de atras: Teletransporte
+El primario: Seleccionar teletransporte
+
+CambiarCamara? ya veremos
+No se cual es el coger cosas jajaja, segun eso habra que cambiarlo
+Scripts:
+	IA Monstruo ( puntos de spawn, sonidos aleatorios, movimiento de cosas)
+	Si esta x tiempo mirando, susto( o si no lo consigue encontrar en mucho tiempo
+
+	MOVIL, controlador del movil segun las acciones y muestra las cosas
+	Renderizado de la textura de las dos camaras que tiene
+
+	Movimiento( teletransporte lo que sea)
+	
+	Interactuables?¿
+
