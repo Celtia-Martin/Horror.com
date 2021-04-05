@@ -8,8 +8,8 @@ public class Teletransporte : MonoBehaviour
     //El eje vertical es el Y
     [SerializeField] private GameObject prefabCilindro;
     private GameObject currentCilindro;
-    private float spawn = 3;
-    private float speed = 0.01f;
+    private float spawn = 10;
+    private float speed = 0.21f;
     private bool activado = false;
 
     private InputAction activarTeletransporte;
