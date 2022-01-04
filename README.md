@@ -48,4 +48,6 @@ XR Device Simulator
 ## Notas sobre la ejecución
 
  Tal y como el proyecto está entregado, se puede ejecutar la demo sin Oculus con XR Device Simulator. Sin embargo, para poder ejecutarla en las Oculus, se deberá desactivar el objeto homónimo, desactivar el collider actual del XR Rig y activar el que está desactivado, y modificar la posición del XR Rig de la siguiente manera: (-3.259, 4.925, 12.62).
+ 
+ Para los controles del XR Device Simulator: https://developers.innoactive.de/documentation/creator/v2.11.1/articles/xr/xr-device-simulator.html
 
