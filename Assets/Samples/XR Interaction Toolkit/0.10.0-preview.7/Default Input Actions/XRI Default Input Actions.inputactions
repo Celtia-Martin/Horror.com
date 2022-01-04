@@ -164,9 +164,17 @@
                     "interactions": ""
                 },
                 {
-                    "name": "RecuperarCaja",
+                    "name": "ActivarCargado",
                     "type": "Button",
-                    "id": "1b286367-8d9d-4606-af8e-b62cb494ac5b",
+                    "id": "15e40ad5-b51a-4816-822d-a44c6ac0bd86",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Respawn",
+                    "type": "Button",
+                    "id": "ffe60ba4-575c-4fad-be7f-42028e971fc4",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -439,23 +447,45 @@
                 },
                 {
                     "name": "",
-                    "id": "dd3d9662-d09d-410d-863f-15327a1c058c",
-                    "path": "<XRSimulatedController>{LeftHand}/secondaryButton",
+                    "id": "af8cfcd9-04df-46bd-8a4f-f17ce9ff6675",
+                    "path": "<Keyboard>/u",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "RecuperarCaja",
+                    "action": "ActivarCargado",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "6834b5ed-30c1-4be3-8e2a-71dea963e7d3",
-                    "path": "<Keyboard>/c",
+                    "id": "48b49ca1-59c4-40d3-932e-84f2002c46c9",
+                    "path": "<OculusTouchController>{LeftHand}/secondaryButton",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Continuous Move",
-                    "action": "RecuperarCaja",
+                    "groups": "",
+                    "action": "ActivarCargado",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d68ab7db-422c-46a3-ad33-f534c60f68bd",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Respawn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e65d0d12-66f9-4324-9f3f-e42644c610cf",
+                    "path": "<OculusTouchController>{LeftHand}/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Respawn",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -578,23 +608,7 @@
                     "interactions": ""
                 },
                 {
-                    "name": "ActivarTele",
-                    "type": "Button",
-                    "id": "36a6bc26-7d6d-452d-b87f-46ba82e43f27",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": ""
-                },
-                {
-                    "name": "MoverTele",
-                    "type": "Value",
-                    "id": "3f5726a7-ce73-4e9f-a717-7954fa1194c9",
-                    "expectedControlType": "Axis",
-                    "processors": "",
-                    "interactions": ""
-                },
-                {
-                    "name": "ConfirmarTele",
+                    "name": "ApagarLinterna",
                     "type": "Button",
                     "id": "0f2e2651-259a-47d0-9fb8-8f4991582904",
                     "expectedControlType": "Button",
@@ -602,10 +616,42 @@
                     "interactions": ""
                 },
                 {
-                    "name": "TecladoMoverTele",
+                    "name": "HacerFoto",
+                    "type": "Button",
+                    "id": "a8f2858c-a9d4-4fb7-b2c4-693b4319e7ac",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Moverse",
                     "type": "Value",
-                    "id": "94e597db-dc87-42bb-bf63-c40bc35828e0",
+                    "id": "458b1797-c5e1-43be-9ebb-bcd05562890f",
                     "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Jugar",
+                    "type": "Button",
+                    "id": "ccabf99c-1747-48d6-9727-75f6c5da42da",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Salir",
+                    "type": "Button",
+                    "id": "9665d2bc-f3ba-44c7-ba73-d5ef19a2431a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Opciones",
+                    "type": "Button",
+                    "id": "d0a8faa4-0a0e-449a-bcf2-7d924b0cb056",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
                 }
@@ -779,55 +825,11 @@
                 {
                     "name": "",
                     "id": "d68eb585-369b-4d93-8b8d-915baa65d43f",
-                    "path": "<XRSimulatedController>{RightHand}/grip",
+                    "path": "<OculusTouchController>{RightHand}/grip",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "HandGrip",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "e5164a73-14c7-4062-b5f7-98e83a0fedb8",
-                    "path": "<XRSimulatedController>{RightHand}/primaryButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "ActivarTele",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "cf91c54e-9c4b-4ce1-abac-f327a9f51fd0",
-                    "path": "<Keyboard>/p",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Noncontinuous Move",
-                    "action": "ActivarTele",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "e1cf3ecb-de7b-4a9f-bb4e-f291dc290363",
-                    "path": "<XRSimulatedController>{RightHand}/primary2DAxis/x",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "MoverTele",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "98088b2b-7486-4146-ba6a-a7aefd2e5c28",
-                    "path": "<XRSimulatedController>{RightHand}/primary2DAxis/y",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "MoverTele",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -838,7 +840,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "ConfirmarTele",
+                    "action": "ApagarLinterna",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -849,64 +851,218 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Continuous Move",
-                    "action": "ConfirmarTele",
+                    "action": "ApagarLinterna",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "79d08b08-bb4b-4583-b2cf-2ee16a43be59",
+                    "path": "<XRInputV1::Oculus::OculusTouchControllerLeft>{RightHand}/secondarybutton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ApagarLinterna",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c92a52d9-fa74-415f-a4ff-63571c54694c",
+                    "path": "<XRInputV1::Oculus::OculusTouchControllerRight>/secondarybutton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ApagarLinterna",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "93f232a3-4bbb-4d1c-a8ce-bafd38f2e48f",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HacerFoto",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c156186a-f54a-4297-bbcc-cf27364200c6",
+                    "path": "<XRSimulatedController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HacerFoto",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9c87c7f0-1ad6-4597-8ff3-514ba294066c",
+                    "path": "<XRInputV1::Oculus::OculusTouchControllerLeft>{RightHand}/primarybutton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HacerFoto",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "67297ae8-ff79-4adf-af7c-24c8e3043e0a",
+                    "path": "<XRInputV1::Oculus::OculusTouchControllerRight>/primarybutton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HacerFoto",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "2D Vector",
-                    "id": "d9754b3b-a77c-4a4c-a598-9ffec2f7343d",
+                    "id": "13ec319d-e6cb-4b79-a60d-e6081a614bc6",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "TecladoMoverTele",
+                    "action": "Moverse",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "up",
-                    "id": "c5a9bf89-08e7-43e8-b6b0-7c6b782affad",
+                    "id": "9caefc38-8f00-4e53-a3fa-e0074ab193bf",
                     "path": "<Keyboard>/upArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "Generic XR Controller",
-                    "action": "TecladoMoverTele",
+                    "action": "Moverse",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "down",
-                    "id": "f471da3d-8f42-41b7-a617-d8156372d229",
+                    "id": "c38765c4-1568-4c02-81d3-1d597cd4b4d4",
                     "path": "<Keyboard>/downArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "Generic XR Controller",
-                    "action": "TecladoMoverTele",
+                    "action": "Moverse",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "left",
-                    "id": "8e6e0a63-524b-4600-8833-4c0c8bec1baa",
+                    "id": "b5506553-bc09-4544-9cf8-748700fb9166",
                     "path": "<Keyboard>/leftArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "TecladoMoverTele",
+                    "action": "Moverse",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "right",
-                    "id": "c0d7b470-0d7d-43a7-b8d6-58d0e84750ae",
+                    "id": "2b3e80f0-48ff-4fc2-8f2c-320b79bca9c7",
                     "path": "<Keyboard>/rightArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "TecladoMoverTele",
+                    "action": "Moverse",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "fa31e9a1-d345-41a4-bd2a-71232ae6d63d",
+                    "path": "<XRSimulatedController>{RightHand}/primary2DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Moverse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ba5acd53-756d-412f-b6ed-d068c70679b9",
+                    "path": "<OculusTouchController>{RightHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Moverse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b00bb845-0ad7-4917-854d-39752cf0f2dc",
+                    "path": "<OculusTouchController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jugar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "605dae2a-63c1-442b-b4e5-a72ce7dc4598",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jugar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "19fdee9f-3a65-466f-acab-b7d8155415a8",
+                    "path": "<OculusTouchController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Salir",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2bb2c2d4-a6ac-4ce8-a984-a3830aae09e1",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Salir",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8dcb3ab3-d32f-4e39-8b03-4028094cb262",
+                    "path": "<XRInputV1::Oculus::OculusTouchControllerRight>{RightHand}/triggerpressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Opciones",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2128c9d2-9e93-4184-8cdf-6ec610b58f17",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Opciones",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }

@@ -4,8 +4,19 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/Menu Principal.unity
+    guid: 8073a90594b374b47b24ff3b116dfae7
+  - enabled: 1
+    path: Assets/Scenes/Juego.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/Muerte.unity
+    guid: be4fdbd4575a0f4439f25d3ede424d4f
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9afb11f99a8408a4e9af266ae12bcf68,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 46e789d8a709dcc4d9f36bdcfcd1d3e9,
       type: 2}
     xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 597b5240f9593bf4cb0fa2e64567c75d,
