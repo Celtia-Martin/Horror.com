@@ -38,8 +38,11 @@ Todos los demás modelos son assets gratuitos.
 ## Herramientas externas utilizadas
 
 ResonanceAudioMixer
+
 XR Interaction Toolkit
+
 Oculus XR Plugin
+
 XR Device Simulator
 
 ## Notas sobre la ejecución
